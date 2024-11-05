@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pdgit
 import numpy as np
 
-st.title('Uber pickups in NYC')
+st.title('Uber pickups in NYC with some changes')
 
 DATE_COLUMN = 'date/time'
 DATA_URL = ('https://s3-us-west-2.amazonaws.com/'
